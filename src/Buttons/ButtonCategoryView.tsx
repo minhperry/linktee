@@ -12,11 +12,7 @@ export default function ButtonCategoryView(prop: {
       </div>
       <div className="flex flex-col gap-2">
         {links.map((link, index) => (
-          <LinkButton
-            key={index}
-            {...link}
-            extraClass="p-2 px-4 bg-slate-400 rounded-xl"
-          />
+          <LinkButton key={index} {...link} />
         ))}
       </div>
     </div>

@@ -2,9 +2,11 @@ import WholeButtonsView from './Buttons/WholeButtonsView.tsx';
 
 function App() {
   return (
-    <div className="absolute top-0 z-[-2] h-screen w-screen bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]">
+    <>
+      <div className="fixed inset-0 z-[-2] h-screen w-screen bg-neutral-950 bg-[radial-gradient(ellipse_at_center,rgba(120,119,198,0.4),rgba(255,255,255,0))] before:absolute before:inset-0 before:bg-[radial-gradient(circle_at_top_left,rgb(34,197,94,0.2),transparent)] before:mix-blend-overlay"></div>
+
       <WholeButtonsView />
-    </div>
+    </>
   );
 }
 
