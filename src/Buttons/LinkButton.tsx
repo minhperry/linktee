@@ -55,7 +55,7 @@ export default function LinkButton(prop: Link) {
   } else {
     return (
       <a
-        href={url}
+        href={url} target="_blank"
         className="group relative inline-flex h-12 items-center justify-center overflow-hidden rounded-md bg-slate-600 px-4 p-2 font-medium text-zinc-300 duration-500"
       >
         <div
