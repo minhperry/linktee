@@ -7,7 +7,7 @@ export default function ButtonCategoryView(prop: {
   const { links, categoryName } = prop;
   return (
     <div className="w-[330px] flex justify-center flex-col p-4">
-      <div className="text-2xl text-center font-bold p-3 text-slate-300">
+      <div className="text-xl text-center font-bold p-3 text-slate-300">
         {categoryName}
       </div>
       <div className="flex flex-col gap-2">
