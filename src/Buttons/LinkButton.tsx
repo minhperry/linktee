@@ -47,7 +47,7 @@ export default function LinkButton(prop: Link) {
           </div>
         </div>
         <div
-          className="absolute translate-x-[150%] opacity-0 transition group-hover:translate-x-0 group-hover:opacity-100">
+          className="absolute translate-x-[150%] opacity-0 transition group-hover:translate-x-0 group-hover:opacity-100 duration-500">
           <i className={`ri-clipboard-${icon.mode} text-[24px]`}></i>
         </div>
       </a>
@@ -56,7 +56,7 @@ export default function LinkButton(prop: Link) {
     return (
       <a
         href={url} target="_blank"
-        className="group relative inline-flex h-12 items-center justify-center overflow-hidden rounded-md bg-slate-600 px-4 p-2 font-medium text-zinc-300 duration-500"
+        className="group relative inline-flex h-12 items-center justify-center overflow-hidden rounded-md bg-slate-700 px-3 p-2 font-medium text-zinc-300 duration-500"
       >
         <div
           className="translate-x-0 opacity-100 transition group-hover:-translate-x-[150%] group-hover:opacity-0 w-full">
@@ -66,7 +66,7 @@ export default function LinkButton(prop: Link) {
           </div>
         </div>
         <div
-          className="absolute translate-x-[150%] opacity-0 transition group-hover:translate-x-0 group-hover:opacity-100">
+          className="absolute translate-x-[150%] opacity-0 transition group-hover:translate-x-0 group-hover:opacity-100 duration-500">
           {svgElm}
         </div>
       </a>
